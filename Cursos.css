@@ -1,0 +1,269 @@
+/* CSS Reset */
+
+
+* {margin: 0; padding: 0; border: 0; }
+
+.body {
+    margin: auto;
+    width: 1500px;
+    background-color: white;
+    font-family: 'Albert Sans',sans-serif;
+    color: white;
+}
+/* Header */
+
+
+.header{
+    color: white;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color:#0838F7;
+    font-size: 20px;
+    align-items:center ;
+
+}
+
+nav a:hover {
+    color: gray;
+}
+
+
+.containera {
+    list-style: none;
+    font-weight:700;
+    float: left;
+    margin: 50px 150px;
+}
+
+.containera a{
+    font-size: 25px;
+}
+
+.containerb {
+    list-style: none;
+    font-weight: 500;
+    float: right;
+    display: flex;
+    gap: 3em;
+    margin: 50px 150px;
+}
+
+/* Landing */
+
+.Landing h1 {
+    font-weight: 500;
+    font-size: 250px;
+    line-height: 200px;
+    color: #DBD800;
+    max-width: 50px;
+    margin-left: 150px;
+    padding: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+/* ClasesPagas */
+
+.ClasesPagas {
+    background-color:#0838F7;
+}
+
+.ClasesPagas h2 {
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 80px;
+    color: white;
+    max-width: 600px;
+    margin-left: 280px;
+    padding-top: 30px;
+}
+
+.ClasesPagas h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-left: 280px;
+    padding-top: 10px;
+}
+
+.ClasesPagas p {
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    margin-left: 280px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 400px;
+}
+
+.ClasesPagas button {
+    font-size:25px;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    color:#0838F7;
+    background: white;
+    margin-bottom: 80px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 300px;
+}
+
+.ClasesPagas button:hover {
+    color:#DBD800
+}
+
+/* Cursos Gratuitos */
+
+.container {
+    display: flex;
+    justify-content:center;
+    gap: 10em;
+
+}
+.Cursosgratis h2 {
+    font-size: 60px;
+    color:#0838F7;
+    text-align: center;
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.Cursosgratis button {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 0.5em 2em ;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: #FFF4F4;
+}
+
+.Cursosgratis button:hover {
+    border-color: black;
+    color: black;
+}
+
+.Cursosgratis h3 {
+    text-align: center;
+    transform: rotate(90deg);
+    font-size: 60px;
+    font-weight: 100;
+    color:#DBD800;
+    padding-bottom: 50px;
+    margin-right:4px;
+}
+
+/* Cursos Scroll */
+
+.CursosScroll {
+    overflow: hidden;
+    background-image: linear-gradient(white, #0396ff64)
+}
+
+.CursosScroll h2 {
+    font-size: 80px;
+    font-weight: 100;
+    color:#0838F7;
+    margin-left: 300px;
+}
+
+.CursosScroll h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color:#0838F7;
+    margin-left: 300px;
+    padding-top: 1em;
+}
+
+.CursosScroll p {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    margin-left: 300px;
+    max-width: 300px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.CursosScroll button {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 0.5em 1.5em ;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: white;
+    margin-left: 290px; 
+    margin-bottom: 150px;
+}
+
+.CursosScroll button:hover {
+    border-color: black;
+    color: black;
+}
+
+.CursosScroll img {
+    float: right;
+    margin-top: -350px;
+    margin-right: 300px;
+}
+
+/* Footer */
+.footer {
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+ 
+ .footerleft {
+     display: flex;
+     gap: 1.5em;
+     margin-left: 100px;
+     padding-top: 30px;
+ }
+ 
+ .footerleft a {
+     color: black;
+     font-size: 18px;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ 
+ .footerleft li {
+     list-style: none;
+ }
+ 
+ .footerright {
+     display: flex;
+     gap: 2em;
+     margin-left: 600px;
+     margin-right: 100px;
+     padding-top: 30px;
+ 
+ }
+ .footerright p {
+     font-size: 18px;
+ }
+ 
+ .footerright li {
+     list-style:none
+ }
+

@@ -1,0 +1,132 @@
+/* CSS Reset */
+* {margin: 0; padding: 0; border: 0; }
+
+
+.body {
+    margin: auto;
+    width: 1500px;
+    background-color: white;
+    font-family: 'Albert Sans',sans-serif;
+    color: white;
+}
+
+/* Navigation Header*/
+.header{
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    align-items:center ;
+
+}
+
+nav a:hover {
+    color: gray;
+}
+
+
+.containera {
+    list-style: none;
+    font-weight:700;
+    float: left;
+    margin: 50px 150px;
+}
+
+.containera a{
+    font-size: 25px;
+}
+.containerb {
+    list-style: none;
+    font-weight: 500;
+    float: right;
+    display: flex;
+    gap: 3em;
+    margin: 50px 150px;
+}
+
+
+h2{
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 300;
+}
+
+.ExamenLanding {
+    text-align: center;
+}
+.Maintext h2 {
+    padding: 170px;
+    padding-bottom: 80px;
+}
+.Examenbutton button {
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: white;
+    color:white;
+    background: none;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.Examenbutton button:hover {
+    border-color: #0838F7;
+    color:#0838F7;
+    background: none;
+}
+
+/* Footer */
+
+.container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+ 
+ .footerleft {
+     display: flex;
+     gap: 1.5em;
+     margin-left: 100px;
+     padding-top: 30px;
+ }
+ 
+ .footerleft a {
+     color: black;
+     font-size: 18px;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ 
+ .footerleft li {
+     list-style: none;
+ }
+ 
+ .footerright {
+     display: flex;
+     gap: 2em;
+     margin-left: 600px;
+     margin-right: 100px;
+     padding-top: 30px;
+ 
+ }
+ .footerright p {
+     font-size: 18px;
+ }
+ 
+ .footerright li {
+     list-style:none
+ }
+
+ 

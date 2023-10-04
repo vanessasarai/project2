@@ -1,0 +1,179 @@
+/* CSS Reset */
+
+
+* {margin: 0; padding: 0; border: 0; }
+
+.body {
+    margin: auto;
+    width: 1500px;
+    background-color: white;
+    font-family: 'Albert Sans',sans-serif;
+    color: white;
+}
+
+/* Header */
+
+
+.header{
+    color: white;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color:#0838F7;
+    font-size: 20px;
+    align-items:center ;
+
+}
+
+nav a:hover {
+    color: gray;
+}
+
+
+.containera {
+    list-style: none;
+    font-weight:700;
+    float: left;
+    margin: 50px 150px;
+}
+
+.containera a{
+    font-size: 25px;
+}
+
+.containerb {
+    list-style: none;
+    font-weight: 500;
+    float: right;
+    display: flex;
+    gap: 3em;
+    margin: 50px 150px;
+}
+
+/* Landing */
+
+h1 {
+    font-weight: 500;
+    font-size: 250px;
+    line-height: 200px;
+    color:#0838F7;
+    padding: 0.5em;
+    padding-bottom: 0.3em;
+}
+
+.Landing h1 {
+    padding-top: 0.7em;
+    margin-left: 60px;
+}
+
+.Landing button {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 0.5em 1.5em ;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: white;
+}
+
+.Landing button:hover {
+    border-color: black;
+    color: black;
+}
+.Landing button {
+    margin-left: 140px;
+    display: inline-block
+}
+
+.Landing h3 {
+    text-align: center;
+    transform: rotate(90deg);
+    font-size: 100px;
+    font-weight: 100;
+    color:#DBD800;
+    margin-top: 50px;
+}
+
+/* Recursos Scroll */
+
+.RecursosScroll {
+    overflow: hidden;
+    background-image: linear-gradient(white, #ffe5e5)
+}
+
+.RecursosScroll h2 {
+    font-size: 80px;
+    font-weight: 100;
+    color:#0838F7;
+    margin-left: 450px;
+    padding-top: 1.5em;
+}
+
+.RecursosScroll h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color:black;
+    margin-left: 450px;
+    padding-top: 1em;
+}
+
+.RecursosScroll h3:hover {
+    color:#0838F7;
+}
+.RecursosScroll img {
+    margin-top: 150px;
+    margin-left: 230px;
+    float: left;
+}
+
+.Podcasts {
+    margin-bottom: 40px;
+}
+/* Footer */
+
+.container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+ 
+ .footerleft {
+     display: flex;
+     gap: 1.5em;
+     margin-left: 100px;
+     padding-top: 30px;
+ }
+ 
+ .footerleft a {
+     color: black;
+     font-size: 18px;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ 
+ .footerleft li {
+     list-style: none;
+ }
+ 
+ .footerright {
+     display: flex;
+     gap: 2em;
+     margin-left: 600px;
+     margin-right: 100px;
+     padding-top: 30px;
+ 
+ }
+ .footerright p {
+     font-size: 18px;
+ }
+ 
+ .footerright li {
+     list-style:none
+ }

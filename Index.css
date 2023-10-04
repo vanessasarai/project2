@@ -1,0 +1,380 @@
+/* CSS Reset */
+
+
+* {margin: 0; padding: 0; border: 0; }
+
+.body {
+    margin: auto;
+    width: 1500px;
+    background-color: white;
+    font-family: 'Albert Sans',sans-serif;
+    color:#0838F7;
+}
+
+h1 {
+    font-size: 100px;
+    color: #FFF4F4;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-weight: 100;
+    line-height: 90px;
+    padding: 0.2em 0.2em;
+}
+
+h2{
+    font-size: 55px;
+    color: #0838F7;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 300;
+}
+
+h3 { 
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight:300;
+}
+
+h4 {
+    font-size: 25px;
+    color: #0838F7;
+}
+
+/* Header */
+
+
+.header{
+    color: white;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color:#0838F7;
+    font-size: 20px;
+    align-items:center ;
+
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.containera a:hover {
+    color: gray;
+}
+
+.containera {
+    list-style: none;
+    font-weight:700;
+    float: left;
+    margin: 50px 150px;
+}
+
+.containerb {
+    list-style: none;
+    font-weight: 500;
+    float: right;
+    display: flex;
+    gap: 3em;
+    margin: 50px 150px;
+}
+
+.h2{
+    font-size: 55px;
+    color: #0838F7;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 300;
+    max-width: 900px;
+}
+
+
+section#Homelanding {
+   background-color: #FFF4F4;
+}
+
+.homecontainer {
+    padding-top: 13%;
+}
+
+.homecontainer h2 {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.HomeLanding button {
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: none;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.HomeLanding button:hover {
+    border-color:gray;
+    color:gray;
+}
+
+.TomaExamen {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.TomaExamen h3 {
+    padding:0.1em;
+    padding-left: 2em;
+    margin-left: 180px;
+    margin-right: 80px;
+}
+
+
+.TomaExamen button {
+    font-size: 18px;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: #FFF4F4;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.TomaExamen button:hover {
+    border-color: black;
+    color: black;
+}
+
+/* Chequea nuestros cursos section */
+
+
+.container1b h2 {
+    margin-top: 30px;
+    text-align: left;
+    line-height:60px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+}
+
+.container1c h2 {
+    padding: 10px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.3em;
+}
+
+.container2 {
+    display: inline-block;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:3em 3em;
+    margin: 0 200px;
+    position: relative;
+
+}
+
+.Niveles {
+    padding-bottom: 50px;
+}
+.Nivel1 button {
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 0.5em 1em ;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: #FFF4F4;
+}  
+
+.Nivel2 button {
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: #FFF4F4;
+}  
+
+.Nivel3 button {
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: #0838F7;
+    color: #0838F7;
+    background: #FFF4F4;
+}  
+.Niveles button:hover {
+    border-color: black;
+    color: black;
+}
+
+.Cursos h4 {
+    font-size: 30px;
+}
+
+/*Clases Pagas Section*/
+
+.ClasesPagas {
+    padding-bottom: 50px;
+}
+.container3 h1 {
+    text-align:left;
+    margin-bottom: 20px;
+    margin-left: 280px;
+}
+.container3 hr {
+    position: relative; 
+    margin-left: 300px;
+}
+
+.container4 h1 {
+    text-align:left;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+}
+.ClasesPagas button {
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 300;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 2em;
+    border: 2px solid black;
+    border-color: white;
+    color: white;
+    background: none;
+    margin-left: 760px;
+}
+
+.ClasesPagas button:hover {
+    border-color: #001878;
+    color: #001878;
+}
+
+.ClasesPagas a:on click {
+    text-decoration: none;
+}
+
+/* Testimonio section */
+
+.Testimonio {
+    display: flex;
+}
+.Testimonio h3 {
+    color: #0838F7;
+    font-size: 60px;
+}
+
+.Testimonio p {
+    color: #0838F7;
+    padding-left: 55px;
+    font-weight: 500;
+}
+
+.paragraph2 p {
+    color:  #DBD800;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-left: 400px;
+}
+.title1 {
+    padding-left:100px;
+}
+
+.row {
+    margin-right: 300px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    max-width: 700px;
+
+
+}
+.column {
+    margin-left: 100px;
+    flex: 2;
+    padding-bottom: 100px;
+}
+.testimonial_image {
+    text-align: center;
+    padding-left: 100px;
+}
+
+/* Footer */
+
+.container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+ }
+ 
+ .footerleft {
+     display: flex;
+     gap: 1.5em;
+     margin-left: 100px;
+     padding-top: 30px;
+ }
+ 
+ .footerleft a {
+     color: black;
+     font-size: 18px;
+     font-weight: 600;
+     text-decoration: none;
+ }
+ 
+ .footerleft li {
+     list-style: none;
+ }
+ 
+ .footerright {
+     display: flex;
+     gap: 2em;
+     margin-left: 600px;
+     margin-right: 100px;
+     padding-top: 30px;
+ 
+ }
+ .footerright p {
+     font-size: 18px;
+ }
+ 
+ .footerright li {
+     list-style:none
+ }
